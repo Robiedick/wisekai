@@ -1,0 +1,98 @@
+/* General Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrollbar */
+}
+
+/* Header Styling */
+header {
+    background-color: #0078d4; /* Metro blue */
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 4px solid #005a9e;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #f0f0f0;
+    padding: 0.5rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #0078d4;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #e5f1fc;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem 0; /* Remove left and right padding */
+    max-width: 100%; /* Ensure the main container takes full width */
+    margin: 0 auto;
+}
+
+.mini-app-container {
+    background-color: #f9f9f9;
+    border: 2px solid #0078d4;
+    padding: 20px;
+    margin: 0 0 1.5rem 0; /* Remove side margins */
+    width: 100%; /* Full width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.mini-app-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+button {
+    background-color: #0078d4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 0; /* No rounded corners */
+}
+
+button:hover {
+    background-color: #005a9e;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0078d4;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    border-top: 4px solid #005a9e;
+    margin-top: 2rem;
+}
